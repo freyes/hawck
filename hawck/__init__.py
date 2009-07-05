@@ -13,3 +13,17 @@
 ##
 ## You should have received a copy of the GNU General Public License
 ## along with hawck.  If not, see <http://www.gnu.org/licenses/>.
+
+import sys
+import logging
+
+from conf import setup_log
+
+log = None
+
+def start():
+    setup_log()
+    log = logging.getLogger("hawck")
+
+if __name__ == '__main__':
+    start()
