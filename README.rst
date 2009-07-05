@@ -1,9 +1,9 @@
-=====
+======
 Hawck, simple tasks manager
-=====
+======
 
 Introduction
----
+------
 
 This project borns like a simple tool to satisfy my needs, I tried a
 lot of different ToDo or tasks managers, but none of them addapted to
