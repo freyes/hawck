@@ -42,7 +42,7 @@ setup(name='hawck',
       install_requires=[
           # -*- Extra requirements: -*-
       ],
-      entry_points="""
-      # -*- Entry points: -*-
-      """,
+      entry_points= {"console_scripts":
+                     ['hawck = hawck:start',],
+                     }
       )
